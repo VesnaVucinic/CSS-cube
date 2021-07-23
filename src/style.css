@@ -37,5 +37,21 @@ p {
 
 }
 
+.cube-front {
+  background: rgb(170, 241, 247);
+  transform: translateZ(100px);
+}
+.cube-back{
+  transform: translateZ(-100px);
+  background: rgb(245, 252, 185)
+}
+.cube-left {
+  transform: translateX(-100px) rotateY(90deg);
+  background: rgb(190, 235, 190);
+}
+.cube-bottom {
+  transform: translateZ(100px) rotateX(90deg);
+  background: rgb(150, 181, 192);
+}
 
 
